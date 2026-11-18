@@ -1,0 +1,7 @@
+node_modules/
+__pycache__/
+*.pyc
+engine/out/
+engine/runs/
+.DS_Store
+Thumbs.db

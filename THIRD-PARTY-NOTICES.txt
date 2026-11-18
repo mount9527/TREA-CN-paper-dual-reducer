@@ -1,0 +1,50 @@
+THIRD-PARTY NOTICES
+===================
+
+1. paper-dual-reduce engine
+---------------------------
+Files:
+  engine/run.py
+  engine/lib/
+  engine/scripts/
+  engine/references/
+  engine/tests/
+
+Source: https://github.com/mount9527/skill-paper-dual-reducer
+License: MIT
+Copyright (c) 2026 paper-dual-reduce contributors
+
+The engine performs docx parsing, diagnosis, task planning, prompt building,
+edit linting, lossless reflow and verification. It has no third-party Python
+dependencies.
+
+
+2. AIGC language-model detector
+-------------------------------
+Files:
+  aigc/detector.py
+  aigc/segscore.py
+  aigc/segdiag.py
+
+Model identifier: yuchuantian/AIGC_detector_zhv3
+Model source: https://huggingface.co/yuchuantian/AIGC_detector_zhv3
+Model license: Apache-2.0
+Base model: chinese-roberta-wwm-ext (Apache-2.0)
+
+Model weights are NOT distributed with this repository. Only the model id is
+referenced. Weights are downloaded by the user from HuggingFace on first
+calibration. Runtime dependencies (torch, transformers) are installed by the
+user and are not bundled.
+
+
+3. Original DSH plugin
+----------------------
+Source: https://github.com/mount9527/paper-dual-reducer
+License: MIT
+Copyright (c) 2026 mount9527
+
+This repository is an independent TRAE CN re-development. Host-side logic in
+mcp/core.js is ported from the original plugin's index.js, with transport,
+state paths, configuration and tool exposure adapted to the TRAE CN plugin
+runtime. The original web panel (client.js) is not included; its workflow is
+expressed as a Skill plus MCP tools.

@@ -1,0 +1,43 @@
+{
+  "name": "paper-dual",
+  "version": "0.1.0",
+  "description": "Diagnose and rewrite Chinese papers: in-document repetition, AI-style fingerprints, AIGC scorer, lossless docx reflow.",
+  "i18n": {
+    "display_name": {
+      "zh-cn": "论文双降",
+      "en": "Paper Dual Reducer",
+      "ja": "論文ダブル削減"
+    },
+    "description": {
+      "zh-cn": "诊断中文论文的 AI 文风与篇内重复，生成定向改写任务并无损回填；AIGC 考官可选，本地处理不上传文档。",
+      "en": "Diagnose AI-style fingerprints and in-document repetition in Chinese papers, generate targeted rewrite tasks, and reflow edits without changing formatting. Optional local AIGC scorer.",
+      "ja": "中国語論文のAI文体と文書内重複を診断し、対象を絞った書き換えタスクを生成して書式を保ったまま反映します。"
+    }
+  },
+  "author": {
+    "name": "mount9527"
+  },
+  "license": "MIT",
+  "keywords": [
+    "paper",
+    "aigc",
+    "de-ai",
+    "repetition",
+    "docx",
+    "academic-writing"
+  ],
+  "skills": "./skills/",
+  "mcp": "./.mcp.json",
+  "interface": {
+    "displayName": "论文双降",
+    "developerName": "mount9527",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "composerIcon": "./assets/app-icon.svg",
+    "logo": "./assets/app-icon.svg",
+    "brandColor": "#1F6F5C"
+  }
+}

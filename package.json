@@ -1,0 +1,37 @@
+{
+  "name": "trae-paper-dual",
+  "version": "0.1.0",
+  "description": "TRAE CN plugin for diagnosing and rewriting Chinese papers: in-document repetition, AI-style fingerprints, AIGC scorer, lossless docx reflow.",
+  "type": "module",
+  "license": "MIT",
+  "author": "mount9527",
+  "keywords": [
+    "trae",
+    "trae-plugin",
+    "paper",
+    "aigc",
+    "de-ai",
+    "plagiarism",
+    "docx",
+    "chinese"
+  ],
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "test": "node tests/smoke.mjs"
+  },
+  "files": [
+    ".trae-plugin/",
+    ".mcp.json",
+    "assets/",
+    "aigc/",
+    "engine/",
+    "mcp/",
+    "skills/",
+    "tests/smoke.mjs",
+    "README.md",
+    "LICENSE",
+    "THIRD-PARTY-NOTICES.txt"
+  ]
+}
